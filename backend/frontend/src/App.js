@@ -1,21 +1,12 @@
 import './App.css';
+import Post from './components/Post';
 
 function App() {
+  const x=5;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          yooo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Post/>
     </div>
   );
 }

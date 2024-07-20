@@ -2,6 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("",views.getToken, name="check"),
-    #path("",views.home, name="mainMetod")
+    #path("",views.getToken, name="tokenInit"),
+    path("",views.handlePost, name="SpotifyQuery")
 ]

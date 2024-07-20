@@ -1,0 +1,38 @@
+.search{
+    text-align: left;
+    color: rgb(138, 121, 121);
+    background-color: black;
+    font-size: x-large;
+    margin: none;
+    margin-bottom: 1dpi;
+    margin-left: 2%;
+    margin-top:0%;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center ;
+    border: none;
+}
+.title{
+    text-align: left;
+    color: blueviolet;
+    font-size: xx-large;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    align-items: right;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 2%;
+}
+.align{
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    align-items: center ;
+}

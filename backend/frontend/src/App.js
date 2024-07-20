@@ -1,11 +1,13 @@
 import './App.css';
 import Post from './components/Post';
+import Header from './components/Header';
+import Trending from './components/Trending';
+import Queries from './components/Queries';
 
 function App() {
-  const x=5;
-
   return (
     <div className="App">
+      <Header/>
       <Post/>
     </div>
   );
